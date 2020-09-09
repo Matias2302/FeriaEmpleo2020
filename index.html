@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
     <title>Document</title>
 </head>
 <header class="page-header">
@@ -19,28 +23,87 @@
       </button>
       <nav class="nav nav--page-header">
         <a href="#" class="nav__link">Inicio</a>
-        <a href="#" class="nav__link">Cronograma</a>
-        <a href="#" class="nav__link">Empresas</a>
-        <a href="#" class="nav__link">Actividades</a>
+        <a href="#cronograma" class="nav__link">Cronograma</a>
+        <a href="#empresas" class="nav__link">Empresas</a>
+        <a href="#actividades" class="nav__link">Actividades</a>
         <a href="#" class="nav__link">Ediciones anteriores</a>
       </nav>
     </div>
   </header>
   
   <main>
-    <div class="hero">
-  
-    </div>
-    <section class="cronograma">
-      <div class="container">
-        <h1>Hello World!</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia, molestiae qui! Saepe deleniti odit sequi ducimus sapiente quaerat itaque sit quo. Officia beatae molestias debitis accusantium ad deserunt obcaecati numquam consequatur illo! Enim nemo qui, fugit adipisci reprehenderit repellendus facere tempore accusamus fugiat culpa! Sit officia harum, excepturi praesentium recusandae odio omnis modi consequuntur possimus doloremque amet, magni explicabo hic cupiditate expedita, quas perferendis ipsum quidem. Voluptate sit totam dicta harum, voluptatum corporis adipisci porro laborum quod saepe inventore perferendis?</p>
-      </div>
-    </section>
+    
     
   </main>
 <body>
- 
+  <div class="hero">
+    <div class="hero-image">
+
+    </div>
+  </div>
+  <section id="cronograma">
+    
+    <div class="container">
+      <h2>Cronograma</h2>
+      <ul class="tabs">
+        <li data-tab-target="#home" class="active tab">Lunes</li>
+        <li data-tab-target="#pricing" class="tab">Pricing</li>
+        <li data-tab-target="#about" class="tab">About</li>
+      </ul>
+      
+      <div class="tab-content">
+        <div id="home" data-tab-content class="active">
+          <h1>Lunes</h1>
+          <p>This is the home</p>
+        </div>
+        <div id="pricing" data-tab-content>
+          <h1>Pricing</h1>
+          <p>Some information on pricing</p>
+        </div>
+        <div id="about" data-tab-content>
+          <h1>About</h1>
+          <p>Let me tell you about me</p>
+        </div>
+        <div id="abouts" data-tab-content>
+          <h1>Aboutsss</h1>
+          <p>Let me tell you about me</p>
+        </div>
+      </div>
+      
+            
+    </div>
+  </section>
+  <section id="empresas">
+    <div class="container">
+      <h2>Empresas que participan</h2>
+      <div class="grilla">
+        <div class="empresa1">
+          <!-- Trigger/Open The Modal -->
+          <img id="myBtn" src="img/0s1.jpg" alt="">
+    
+          <!-- The Modal -->
+          <div id="myModal" class="modal">
+    
+          <!-- Modal content -->
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h3>Modal header</h3>
+                  
+              </div>
+              <span class="close">&times;</span>
+              <div class="modal-text">
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore esse veniam, laborum perferendis deleniti impedit earum? Mollitia quas, voluptatem rerum eum dolores ullam architecto in error aspernatur alias magni neque.</p>
+              </div>
+              </div>  
+          </div>
+        </div>
+      </div>
+    </div> 
+  </section>
+  <section id="Actividades">
+
+  </section>
     <script src="js/main.js"></script>
+    
 </body>
 </html>
