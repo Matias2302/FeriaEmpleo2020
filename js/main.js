@@ -22,6 +22,19 @@ tabs.forEach(tab => {
     })
 })
 
+
+//Animated navbar
+window.onscroll = function () { scrollFunction() };
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementsbyID("barra").style.top = "0";
+    } else {
+        document.getElementsByID("barra").style.top = "-50px";
+    }
+}
+
+///////////
 // Get the button that opens the modal
 var btn = document.querySelectorAll("img.modal-button");
 
@@ -57,3 +70,5 @@ window.onclick = function(event) {
         }
     }
 }
+
+

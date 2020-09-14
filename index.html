@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 <title>Document</title>
 </head>
-<header class="page-header">
+<header id="barra" class="page-header">
     <div class="container">
         <div class="logo logo--page-header">
             <img hef="#" src="img/FCEA_blanco.png" alt="">
@@ -23,10 +23,10 @@
       </button>
         <nav class="nav nav--page-header">
             <a href="#" class="nav__link">Inicio</a>
-            <a href="#cronograma" class="nav__link">Cronograma</a>
+            <!-- <a href="#cronograma" class="nav__link">Cronograma</a> -->
             <a href="#empresas" class="nav__link">Empresas</a>
             <a href="#actividades" class="nav__link">Actividades</a>
-            <a href="#" class="nav__link">Ediciones anteriores</a>
+            <a href="http://fcea.edu.uy/FeriaDeEmpleo2019/" target="_blank" class="nav__link">Ediciones anteriores</a>
         </nav>
     </div>
 </header>
@@ -42,7 +42,7 @@
 
         </div>
     </div>
-    <section id="cronograma">
+    <!-- <section id="cronograma">
         <div class="container">
             <h2>Cronograma</h2>
             <ul class="tabs">
@@ -76,79 +76,226 @@
                     <p>Let me tell you about me</p>
                 </div>
             </div>
-
-
         </div>
-    </section>
+    </section> -->
     <section id="empresas">
         <div class="container">
             <h2>Empresas que participan</h2>
+            <div class="floating-imgs front-one">
+                <img src="img/circulo.png">
+            </div>
+            <div class="floating-imgs front-two">
+                <img src="img/triangulo.png">
+            </div>
             <div class="grilla">
                 <div class="empresa1">
                     <!-- Trigger/Open The Modal -->
-                    <img class="modal-button" src="img/afap.jpg" alt="República Afap" href="#myModal">
+                    <img class="modal-button" src="img/empresas/afap.jpg" alt="República Afap" href="#myModal">
                     <!-- The Modal -->
                     <div id="myModal" class="modal">
                         <!-- Modal content -->
                         <div class="modal-content">
                             <div class="modal-header">
                                 <span class="close">×</span>
-                                <h2>Modal Header</h2>
+                                <h2>República AFAP</h2>
                             </div>
                             <div class="modal-body">
-                                <p>Some text in the Modal Body</p>
+                                <p>República AFAP es una Administradora de Fondos de Ahorro Previsional que se dedica a administrar el aporte de los
+                                    trabajadores para brindarles un mayor ahorro para su jubilación. Las AFAP y el BPS forman en conjunto el Sistema
+                                    Previsional Mixto. Es la única AFAP cuyos accionistas son entes estatales: BROU, BPS y BSE.
+                                    Es importante tener en cuenta que el régimen de ahorro individual es más conveniente para los jóvenes. Cuanto más
+                                    tiempo se aporte a la AFAP, más dinero ingresará a la cuenta del trabajador y mayor será el ahorro para su futura
+                                    jubilación.
+                                    Desde sus inicios en 1996, el Sistema ha diversificado sus inversiones en los sectores: agropecuario, industrial,
+                                    servicios e infraestructura. De esta manera, sectores como el arrocero, lechero, cárnico, forestal, energético,
+                                    inmobiliario y de transporte, han recibido Fondos Previsionales que les han permitido ampliar sus posibilidades de
+                                    producción. Para República AFAP es esencial acompañar a los trabajadores durante su vida laboral. Por eso dispone de
+                                    una amplia red de comunicación para brindar un servicio de calidad: línea telefónica gratuita, e-mail, SMS, portal
+                                    web, redes sociales y atención personalizada en los 19 departamentos del país.</p>
                                 <p>Some other text...</p>
-                            </div>
-                            <div class="modal-footer">
-                                <h3>Modal Footer</h3>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="empresa2">
                     <!-- Trigger/Open The Modal -->
-                    <img class="modal-button" src="img/pwc.jpg" alt="PWC" href="#myModal2">
+                    <img class="modal-button" src="img/empresas/pwc.jpg" alt="PWC" href="#myModal2">
                     <!-- The Modal -->
                     <div id="myModal2" class="modal">
                         <!-- Modal content -->
                         <div class="modal-content">
                             <div class="modal-header">
                                 <span class="close">×</span>
-                                <h2>Modal Header</h2>
+                                <h2>PWC</h2>
                             </div>
                             <div class="modal-body">
-                                <p>Some text in the Modal Body</p>
-                                <p>Some other text...</p>
-                            </div>
-                            <div class="modal-footer">
-                                <h3>Modal Footer</h3>
+                                <p>En PwC Uruguay tenemos como propósito construir confianza en la sociedad y resolver
+                                    problemas importantes. Somos una red de firmas presente en 158 países, con más de
+                                    250.000 personas comprometidas con brindar servicios de calidad relacionados con
+                                    auditoría, consultoría de negocios, asesoramiento tributario, legal y contable. Conocé
+                                    más en: <a href="www.pwc.com.uy">www.pwc.com.uy</a></p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="empresa3">
                     <!-- Trigger/Open The Modal -->
-                    <img class="modal-button" src="img/guyer regules.jpg" alt="Guyer and Regules" href="#myModal3">
+                    <img class="modal-button" src="img/empresas/guyer regules.jpg" alt="Guyer and Regules" href="#myModal3">
                     <!-- The Modal -->
                     <div id="myModal3" class="modal">
                         <!-- Modal content -->
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h3>Modal header</h3>
+                                <h3>Guyer & Regules</h3>
 
                             </div>
                             <span class="close">&times;</span>
                             <div class="modal-text">
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore esse veniam, laborum perferendis deleniti impedit earum? Mollitia quas, voluptatem rerum eum dolores ullam architecto in error aspernatur alias magni neque.</p>
+                                <p><strong>Guyer &amp; Regules – Grant Thornton</strong> tiene el orgullo de ser considerado como la primera opción
+                                    en Uruguay en asuntos contables, notariales, jurídicos e impositivos complejos, tanto
+                                    nacionales como internacionales. Esta reputación se basa en el compromiso diario con la
+                                    excelencia de su sólido equipo de profesionales capacitados internacionalmente y en el grupo
+                                    de socios más grande y experimentado del país, convirtiendo al Estudio en el asesor de
+                                    confianza de sus clientes.</p>
+                                <p><strong>Guyer &amp; Regules y Grant Thornton</strong> ofrecen excelentes oportunidades de carrera para
+                                    estudiantes de Ciencias Económicas, con posibilidad de trabajar en un régimen de seis horas
+                                    diarias en el Departamento de Auditoría y Consultoría, o en el Departamento de Sociedades.
+                                    La forma de trabajo del estudio brinda la posibilidad de conocer y trabajar simultáneamente
+                                    en diversas áreas de especialidad como contabilidad, liquidación de haberes e impuestos, sin
+                                    que el estudiante tenga que resolver en etapas tempranas de la carrera profesional en qué
+                                    área le gustaría especializarse. Esto le permite adquirir conocimientos de muchas áreas
+                                    relevantes, y contribuye significativamente a su posterior desarrollo profesional.</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="empresa4">
                     <!-- Trigger/Open The Modal -->
-                    <img class="modal-button" src="img/rsm.jpg" alt="RSM" href="#myModal4">
+                    <img class="modal-button" src="img/empresas/deloitte.jpg" alt="RSM" href="#myModal4">
                     <!-- The Modal -->
                     <div id="myModal4" class="modal">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h3>Deloitte</h3>
+                            </div>
+                            <span class="close">&times;</span>
+                            <div class="modal-text">
+                            <p>Deloitte es una Firma que brinda servicios profesionales de Auditoría,
+                                Administración del Riesgo, Tecnología, Estrategia y Operaciones, Capital
+                                Humano, Asesoramiento Financiero, Impuestos y Outsourcing.</p>
+                             <p>Con más de 286.200 profesionales y presencia en más de 150 países en
+                                todo el mundo, compartimos un único propósito: generar impactos que
+                                trasciendan en nuestros clientes, nuestra gente y en la sociedad.</p>
+                             <p>Nuestra propuesta para vos: potenciar tu carrera profesional a través de
+                                experiencias de aprendizaje y desarrollo continuas, trabajando en equipo en
+                                importantes empresas nacionales e internacionales y en un excelente
+                                ambiente laboral.</p>
+                             <p>La gente y nuestra cultura hacen de Deloitte un gran lugar para trabajar.
+                                Siempre que hemos participado de la encuesta realizada por Great Place To
+                                Work Institute©, hemos sido reconocidos como uno de los mejores lugares
+                                para trabajar en Uruguay.</p>
+                             <p>Conocé más sobre nosotros en las redes y nuestra web.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="empresa5">
+                    <!-- Trigger/Open The Modal -->
+                    <img class="modal-button" src="img/empresas/dca_contadores.jpg" alt="RSM" href="#myModal5">
+                    <!-- The Modal -->
+                    <div id="myModal5" class="modal">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h3>DCA Contadores</h3>
+                            </div>
+                            <span class="close">&times;</span>
+                            <div class="modal-text">
+                            <p>Somos una firma con la experiencia y solidez que respaldan más de 45 años en el mercado.
+                                Brindamos servicios profesionales en Asesoramiento Contable Integral, Asesoramiento Tributario, Payroll, Recursos
+                                Humanos, Consultoría y Auditoría.</p>
+                            <p>La confianza y recomendación de nuestros clientes nacionales e internacionales, el alcance mundial de nuestros
+                                partners HLB Intenational y Facthum y la garantía de la certificación ISO 9001 en todos nuestros procesos, hacen de
+                                DCA una firma sólida y confiable.
+                                El vínculo que construimos con nuestros clientes es de cercanía y profundo conocimiento, basado en el trato
+                                personalizado que identifica nuestro clima organizacional. Nuestro equipo establece con cada cliente una relación de
+                                confianza, lo que hace que más allá de un excelente servicio profesional, las empresas nos elijan por la calidez de
+                                nuestra atención.
+                                Especialistas en Empresas IT, Industria Química y Farmacéutica, Sector Logística.</p>
+                            <p>Tenemos la experiencia y los conocimientos necesarios para la gestión y asesoramiento específico de empresas
+                                desarrolladoras de software y tecnología. Ofrecemos asesoría profesional a laboratorios, empresas médicas y químicas
+                                nacionales e internacionales, tanto en gestión contable, como fiscal y de RR.HH. Damos soluciones de gestión
+                                contable y tributaria a grandes empresas de logística, así como servicios de reclutamiento, capacitación y
+                                outsourcing de RR.HH. en el sector logística y transporte.</p>
+                            <p>Gracias a esto confían en nosotros compañías de gran porte y renombre de estos sectores, que operan como empresas
+                                locales y en régimen de Zona Franca.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="empresa6">
+                    <!-- Trigger/Open The Modal -->
+                    <img class="modal-button" src="img/empresas/smart_talent.jpg" alt="RSM" href="#myModal6">
+                    <!-- The Modal -->
+                    <div id="myModal6" class="modal">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h3>Smart Talent</h3>
+                            </div>
+                            <span class="close">&times;</span>
+                            <div class="modal-text">
+                                <p>El portal laboral Smart Talent de Uruguay XXI reúne a quienes día a día desafían su talento y
+                                buscan darle una proyección internacional a su carrera. Allí, sus usuarios pueden acceder a
+                                oportunidades laborales y actividades que los acercan a empresas que trabajan desde Uruguay
+                                hacia el mundo.</p>
+                                <p>Según una encuesta reciente, de las 20 mil personas registradas, el 70% asegura que utiliza
+                                Smart Talent como portal de cabecera no solo para la búsqueda de trabajo sino para conocer
+                                empresas, tendencias del mercado laboral, tips para la búsqueda de empleo, agenda de
+                                actividades educativas y socio-culturales, así como eventos de referencia para el desarrollo
+                                profesional.</p>
+                                <p> Entre las actividades que organiza Smart Talent se destaca <a href="https://www.smarttalent.uy/tomauncafe">Tomá un café</a> en, visitas a empresas
+                                de servicios globales donde usuarios del portal conversan mano a mano con sus líderes. <a href="https://www.smarttalent.uy/cvchecking2017">CV
+                                Checking</a>, instancias en las que consultoras de personal dan tips sobre el armado del CV y la
+                                entrevista laboral.<a href="https://www.smarttalent.uy/techtraining">Tech Training</a>, talleres tecnológicos liderados por profesionales de las
+                                mismas empresas, además de <a href="https://www.smarttalent.uy/day2017">Smart Talent Day</a>, el evento anual que reúne a la comunidad de
+                                los servicios globales.</p>
+                                <p>También, desde hace 4 años organiza la <a href="https://www.smarttalent.uy/innovaportal/v/22180/15/innova.front/se-realizo-la-3era-edicion-de-la-semana-de-smart-talent-en-fcea.html">Semana Smart Talent en FCEA</a>  en conjunto con la
+                                Facultad de Ciencias Económicas y de Administración (Udelar), en la cual cada día una empresa
+                                exportadora de servicios cuenta su modelo de negocios y los perfiles profesionales que busca.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="empresa7">
+                    <!-- Trigger/Open The Modal -->
+                    <img class="modal-button" src="img/empresas/pp&v.jpg" alt="RSM" href="#myModal7">
+                    <!-- The Modal -->
+                    <div id="myModal7" class="modal">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h3>Posadas, Posadas & Vecino</h3>
+                            </div>
+                            <span class="close">&times;</span>
+                            <div class="modal-text">
+                                <p>Somos el primer estudio jurídico full-service del Uruguay, porque desde el inicio entendimos que nuestros clientes
+                                    necesitan soluciones integrales y únicas. Desde hace más de 90 años trabajamos con el objetivo de comprender la
+                                    dinámica de un mercado siempre cambiante para ofrecer soluciones adecuadas a las necesidades más diversas. Nuestros
+                                    profesionales brindan asesoramiento legal, contable, tributario y notarial, en cuestiones comerciales complejas a
+                                    través de una óptica multidisciplinaria. Continuamos siendo parte de los emprendimientos de mayor envergadura que ha
+                                    visto el país, asesorando a compañías referentes en el mercado. Contamos con oficinas en Montevideo, Zonamérica y
+                                    Punta del Este. Siendo el único Estudio con oficinas en el continente Europeo, estamos presentes en Ginebra.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="empresa8">
+                    <!-- Trigger/Open The Modal -->
+                    <img class="modal-button" src="img/empresas/willis towers.jpg" alt="RSM" href="#myModal8">
+                    <!-- The Modal -->
+                    <div id="myModal8" class="modal">
                         <!-- Modal content -->
                         <div class="modal-content">
                             <div class="modal-header">
@@ -156,7 +303,39 @@
                             </div>
                             <span class="close">&times;</span>
                             <div class="modal-text">
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore esse veniam, laborum perferendis deleniti impedit earum? Mollitia quas, voluptatem rerum eum dolores ullam architecto in error aspernatur alias magni neque.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore esse veniam, laborum perferendis
+                                    deleniti impedit earum? Mollitia quas, voluptatem rerum eum dolores ullam architecto in error
+                                    aspernatur alias magni neque.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="empresa9">
+                    <!-- Trigger/Open The Modal -->
+                    <img class="modal-button" src="img/empresas/rsm.jpg" alt="RSM" href="#myModal9">
+                    <!-- The Modal -->
+                    <div id="myModal9" class="modal">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h3>RSM</h3>
+                            </div>
+                            <span class="close">&times;</span>
+                            <div class="modal-text">
+                            <p>RSM, sexta firma a nivel mundial de auditoría, consultoría e impuestos, cuenta con 43.000 personas, distribuidas en
+                                750 oficinas de 120 países, trabajando bajo un mismo objetivo.</p>
+                            
+                            <p>En RSM Urguay contamos con un equipo de más de 130 colaboradores que ofrece soluciones flexibles y de calidad a
+                                clientes locales e internacionales, del sector público y privado.</p>
+                            
+                            <p>Estamos muy contentos de participar en la Segunda Feria de Empleo de Ciencias Económicas y así fortalecer los lazos
+                                que nos unen a la Facultad de Ciencias Económicas de la Universidad de la República (Udelar). Decenas de estudiantes
+                                y profesionales de Udelar han dejado, y dejan, su huella en nuestra firma. Ahora es tiempo de que tú dejes la tuya.
+                            </p>
+                            
+                            <p>Por más información visita nuestra página web <a href="www.rsm.uy">www.rsm.uy</a></p>
+                            
+                            <p>¡Los esperamos en nuestro stand!</p>
                             </div>
                         </div>
                     </div>
@@ -164,9 +343,70 @@
             </div>
         </div>
     </section>
-    <section id="Actividades">
+    <div class="parallax">
 
+    </div>
+    <section id="Actividades">     
+        <div class="container">
+            <h2>Actividades en línea</h2>
+            <h4>Suscribite al canal de FCEA</h4>
+            <div class="floating-imgs front-two">
+                <img src="img/linea-violeta.png">
+            </div>
+            <div class="floating-imgs front-three">
+                <img src="img/linea-blanca.png">
+            </div>
+            <div class="flex">
+                <div class="video col">
+                    <div class="image fit">
+                        <img src="img/01.jpg" alt="" />
+                        <div class="arrow">
+                            <div class="icon fa-play"></div>
+                        </div>
+                    </div>
+                    
+                    <p class="caption">
+                    ¡Seguí todas las actividades en línea!
+                    </p>
+                    <a href="https://www.youtube.com/channel/UCGCfQwMPOp9uVF1OBQUSZBQ" target="_blank" class="link"><span>Click Me</span></a>
+                </div>
+                <!-- <div class="video col">
+                    <div class="image fit">
+                        <img src="images/pic10.jpg" alt="" />
+                        <div class="arrow">
+                            <div class="icon fa-play"></div>
+                        </div>
+                    </div>
+                    <p class="caption">
+                        Vivamus vulputate lacus non massa auctor lobortis
+                    </p>
+                    <a href="generic.html" class="link"><span>Click Me</span></a>
+                </div>
+                <div class="video col">
+                    <div class="image fit">
+                        <img src="images/pic11.jpg" alt="" />
+                        <div class="arrow">
+                            <div class="icon fa-play"></div>
+                        </div>
+                    </div>
+                    <p class="caption">
+                        Nam eu nisi non ante sodales interdum a vitae neque
+                    </p>
+                    <a href="generic.html" class="link"><span>Click Me</span></a>
+                </div> -->
+            </div>
+        </div>
     </section>
+    <footer id="footer">
+        <div class="container">
+            <ul class="icons">
+                <li><a target="_blank" href="https://www.facebook.com/FCEA.UDELAR" class="icon fa-facebook"></a></li>
+                <li><a target="_blank" href="https://twitter.com/FCEA_UdelaR" class="icon fa-twitter"></a></li>
+                <li><a target="_blank" href="https://www.instagram.com/fceaudelar/" class="icon fa-instagram"></a></li>
+            </ul>
+    
+        </div>
+    </footer>
     <script src="js/main.js"></script>
 
 </body>
